@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+}
+nav {
+    overflow: hidden;
+    background:
+    margin: 0 auto;
+}
+nav li {
+    float: right;
+    list-style-type: none;
+}
+nav div {
+    margin-right: 40px;
+}
+nav a {
+    float: right;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 22px;
+    display: border-box;
+    border: 3px solid white;
+}
+nav a:hover {
+    border: 3px solid hsl(204, 100%, 88%);
+}
+
+.header {
+    position: absolute;
+    height: calc(100vh - 59.6px);
+    width: 100vw;
+    margin: 0 auto;
+    text-align: center;
+    background-image: url("https://lightroom.adobe.com/v2c/catalogs/4df743001cd44b5f9fdc0c1acd7ba188/assets/facb50a3df837aba6c2e5fe6a90794f0/revisions/24cef5d310a74b23a001543e923900ed/renditions/c035dad15abd7d98633e49085293132d");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+
+}
+.header .header-text {
+    color: black;
+    text-shadow: 0px 1px black;
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: calc((100vh / 3) - 50px);
+}
+.header span {
+    font-size: 100px;
+    color: white;
+}
