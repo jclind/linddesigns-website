@@ -2,9 +2,10 @@ body {
     margin: 0;
 }
 nav {
+    background: rgb(231, 252, 255);
     overflow: hidden;
-    background:
     margin: 0 auto;
+    border-bottom: 3px solid white;
 }
 nav li {
     float: right;
@@ -14,40 +15,77 @@ nav div {
     margin-right: 40px;
 }
 nav a {
+    color: black;
     float: right;
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
     font-size: 22px;
     display: border-box;
-    border: 3px solid white;
+    border: 3px solid rgb(231, 252, 255);
 }
 nav a:hover {
     border: 3px solid hsl(204, 100%, 88%);
+    color: hsl(204, 100%, 88%);
 }
 
 .header {
-    position: absolute;
-    height: calc(100vh - 59.6px);
-    width: 100vw;
+    height: 50vh;
+    width: 99vw;
     margin: 0 auto;
     text-align: center;
-    background-image: url("https://lightroom.adobe.com/v2c/catalogs/4df743001cd44b5f9fdc0c1acd7ba188/assets/facb50a3df837aba6c2e5fe6a90794f0/revisions/24cef5d310a74b23a001543e923900ed/renditions/c035dad15abd7d98633e49085293132d");
+    background-image: url("https://i.ibb.co/7gpjs8N/emotionheader-2.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     display: inline-block;
-
 }
 .header .header-text {
-    color: black;
-    text-shadow: 0px 1px black;
+    color: white;
+    text-shadow: 0px .3px black;
     text-align: center;
     font-weight: 700;
-    font-size: 30px;
-    margin-top: calc((100vh / 3) - 50px);
+    font-size: 27px;
+    margin-top: 75px;
 }
 .header span {
     font-size: 100px;
-    color: white;
+    font-family: Cambria;
+}
+.header button {
+    font-size: 20px;
+    margin-top: 20px;
+    background: white;
+    border: none;
+    border-radius: 2px;
+    width: 100px;
+    height: 50px;
+}
+.header button:hover {
+    border-radius: 3px;
+    border: 1px solid hsl(204, 100%, 88%);
+    color: hsl(204, 100%, 88%);
+    cursor: pointer;
+}
+
+.about {
+    background: rgb(231, 252, 255);
+    border-top: 3px solid white;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 99vw;
+    height: 400px;
+    text-align: center;
+    color: rgb(24, 24, 24);
+}
+.about h1 {
+    font-size: 35px;
+    margin-top: 30px;
+}
+.about p {
+    margin: 0 auto;
+    width: 800px;
+    font-size: 20px;
 }
