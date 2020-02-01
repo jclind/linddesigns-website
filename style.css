@@ -95,3 +95,40 @@ nav a:hover {
     margin: 15 auto;
     font-size: 23px;
 }
+
+.extra-content {
+    background: rgb(231, 252, 255);
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 99vw;
+    height: 800px;
+    text-align: center;
+    color: rgb(24, 24, 24);
+}
+.extra-content .container {
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.extra-content .container div {
+    height: 190px;
+    margin: 0px 40px;  
+}
+.extra-content .subtext {
+    color: white;
+    font-size: 22px;
+    font-weight: 300;
+    background: rgb(0, 183, 255);
+    margin-bottom: 500px;
+    width: 300px;
+}
+.extra-content .subtext span {
+    margin-top: 0;
+    padding: 0;
+    font-size: 45px;
+    font-weight: bold;
+}
