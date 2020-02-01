@@ -76,16 +76,22 @@ nav a:hover {
     padding: 0;
     position: relative;
     width: 99vw;
-    height: 400px;
     text-align: center;
     color: rgb(24, 24, 24);
+}
+.about-text {
+    margin: 0 auto;
+    margin-top: 45px;
+    width: 1400px;
+    display: flex;
+    align-items: center;
 }
 .about h1 {
     font-size: 35px;
     margin-top: 30px;
 }
 .about p {
-    margin: 0 auto;
-    width: 800px;
-    font-size: 20px;
+    width: 400px;
+    margin: 15 auto;
+    font-size: 23px;
 }
